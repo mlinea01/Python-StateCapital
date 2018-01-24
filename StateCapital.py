@@ -19,11 +19,11 @@ while leaveProgram != "q":
     for state in state_caps:
         state = input("Enter a state to see it's Capital.(Case Sensitive)")
 
-    if state in state_caps:
-        print(state_caps[state])
-        break
+        if state in state_caps:
+            print(state_caps[state])
+            break
 
-    else:
-        print("Could not find what you are looking for! Check your spelling and trying again!")
+        else:
+            print("Could not find what you are looking for! Check your spelling and trying again!")
 
     leaveProgram = input("Press enter to continue or q to quit")
