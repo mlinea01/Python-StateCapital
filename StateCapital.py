@@ -20,7 +20,7 @@ while leaveProgram != "q":
         state = input("Enter a state to see it's Capital.(Case Sensitive)")
 
         if state in state_caps:
-            print(state_caps[state])
+            print("The capital of",state,"is",state_caps[state])
             break
 
         else:
